@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myportfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="logo">Portfolio.</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="bars-animation">
+        <div class="bar"style="--i:6;"></div>
+        <div class="bar"style="--i:5;"></div>
+        <div class="bar"style="--i:4;"></div>
+        <div class="bar"style="--i:3;"></div>
+        <div class="bar"style="--i:2;"></div>
+        <div class="bar"style="--i:1;"></div>
+    </div>
+    <section class="home">
+        <div class="home-info">
+            <h1>Shyamjee Sahu</h1>
+            <h2>I'm 
+                <span style="--i:1;" data-text="Frontend Developer">Frontend Developer</span>
+                <span style="--i:2;" data-text="Java Developer">Java Developer</span>
+                <span style="--i:3;" data-text="Web Developer">Web Developer</span>
+                <span style="--i:4;" data-text="Backend Developer">Backend Developer</span>
+            </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, cumque? Mollitia, amet voluptatum dolores id non, accusamus magnam quas eius perspiciatis qui quaerat quidem. Itaque officiis nulla excepturi a impedit.</p>
+            <div class="btn-social">
+                <a href="https://drive.google.com/file/d/1ddzLe3g3K07jfsiKc0aiMw04qvskQVqS/view?usp=drivesdk" target="_blank" class="btn">Download CV</a>
+                <div class="social-link">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="myimg.png" alt=""/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="about">
+        <div class="left">
+            <h2 class="abouthead">About Me</h2>
+            <div class="div">
+                <p>Interactive Front-end Developer.</p>
+            </div>
+            <div class="div">
+                <p>I'm Shyamjee Sahu, a 23-years-old freelance Front-end Developer.I'm a passinate Web Developer who likes making weird things with web technologies.</p>
+            </div>
+            <div class="div">
+                <p>I like to resolve design problems, create smart user interface and imagine useful interaction, developing rich web experiences & Web Applications.</p>
+            </div>
+            <div class="div">
+                <p>When not working or futzing around with code, I study how to escape from University Actually for hire.</p>
+            </div>
+            <div class="div">
+                <img src="react.png" class="img"/>
+                <img src="js.png" class="img"/>
+                <img src="css.png" class="img"/>
+                <img src="spring.png" class="img"/>
+            </div>
+        </div>
+        <div class="right">
+            <h2 class="abouthead">Let's talk</h2>
+            <div class="div">
+                <p>New projects,freelance inquiry.</p>
+            </div>
+            <div class="div">
+                <input type="text" name="Name" placeholder="Name*" required/>
+            </div>
+            <div class="div">
+                <input type="email" name="Email" placeholder="so*****99@gmail.com*" required/>
+            </div>
+            <div class="div">
+                <input type="textbox" name="Message" placeholder="Message*" required/>
+            </div>
+            <a href="#" class="btn">Send Message</a>
+        </div>
+    </div>
+    <div id="Services">
+        <div class="Servicehead">
+            <h1>MY SERVICES</h1>
+        </div>
+        <div class="parentServiceCard">
+            <div class="serviceCard">
+                <img src="uiux.png" class="img"/>
+                <P>Web UI/UX Design</P>
+            </div>
+            <div class="serviceCard">
+                <img src="webapp.png" class="img"/>
+                <P>Web Applications Design</P>
+            </div>
+            <div class="serviceCard">
+                <img src="web.png" class="img"/>
+                <P>Web Portals</P>
+            </div>
+            <div class="serviceCard">
+                <img src="ecommerce.png" class="img"/>
+                <P>E-commerce Websites Development</P>
+            </div>
+            <div class="serviceCard">
+                <img src="responsive.png" class="img"/>
+                <P>Responsive Website Design</P>
+            </div>
+            <div class="serviceCard">
+                <img src="maintenance.png" class="img"/>
+                <P>Maintenance</P>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
